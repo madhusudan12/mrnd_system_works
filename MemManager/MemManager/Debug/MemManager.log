@@ -1,0 +1,19 @@
+﻿Build started 6/16/2018 7:59:24 PM.
+     1>Project "C:\Users\niranjan\Documents\Visual Studio 2013\Projects\MemManager\MemManager\MemManager.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MEMMANAGER_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MemManager.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MemManager.cpp
+         MemManager.cpp
+     1>c:\users\niranjan\documents\visual studio 2013\projects\memmanager\memmanager\memmanager.cpp(98): warning C4273: 'ms_malloc' : inconsistent dll linkage
+                 c:\users\niranjan\documents\visual studio 2013\projects\memmanager\memmanager\manager.h(10) : see previous definition of 'ms_malloc'
+     1>c:\users\niranjan\documents\visual studio 2013\projects\memmanager\memmanager\memmanager.cpp(191): warning C4273: 'ms_free' : inconsistent dll linkage
+                 c:\users\niranjan\documents\visual studio 2013\projects\memmanager\memmanager\manager.h(12) : see previous definition of 'ms_free'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\niranjan\Documents\Visual Studio 2013\Projects\MemManager\Debug\MemManager.dll" /INCREMENTAL /NOLOGO pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\niranjan\Documents\Visual Studio 2013\Projects\MemManager\Debug\MemManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\niranjan\Documents\Visual Studio 2013\Projects\MemManager\Debug\MemManager.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\MemManager.obj
+         Debug\stdafx.obj
+         MemManager.vcxproj -> C:\Users\niranjan\Documents\Visual Studio 2013\Projects\MemManager\Debug\MemManager.dll
+     1>Done Building Project "C:\Users\niranjan\Documents\Visual Studio 2013\Projects\MemManager\MemManager\MemManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03

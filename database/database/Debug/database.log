@@ -1,0 +1,14 @@
+﻿Build started 5/28/2018 3:46:33 PM.
+     1>Project "C:\Users\niranjan\Documents\Visual Studio 2013\Projects\database\database\database.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\niranjan\documents\visual studio 2013\projects\database\database\main.cpp(261): warning C4715: 'findIndex' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\niranjan\Documents\Visual Studio 2013\Projects\database\Debug\database.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\niranjan\Documents\Visual Studio 2013\Projects\database\Debug\database.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\niranjan\Documents\Visual Studio 2013\Projects\database\Debug\database.lib" /MACHINE:X86 Debug\main.obj
+         database.vcxproj -> C:\Users\niranjan\Documents\Visual Studio 2013\Projects\database\Debug\database.exe
+     1>Done Building Project "C:\Users\niranjan\Documents\Visual Studio 2013\Projects\database\database\database.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87
